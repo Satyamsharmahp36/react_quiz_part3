@@ -1,0 +1,89 @@
+.outerDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97vw;
+  height: 97vh;
+}
+
+.mainDiv{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+
+#questionNo{
+  display: flex;
+  align-items: start;
+  width: 70vw;
+  padding-left: 1vw;
+}
+
+.optionsColumns{
+ display: grid;
+ margin: 3vw;
+ grid-template-columns: 1fr 1fr ;
+
+}
+.options{
+  width: 30vw;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 2vw;
+  padding: 0.5vw;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.bottonButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2vw;
+}
+
+button{
+  margin: 1vw;
+}
+
+.resultData{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw; 
+}
+
+.practice{
+  width: 70vw;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#resultMain{
+  padding: 3vw;
+}
+
+#QuizDiv{
+  background-color: rgb(255, 255, 255,0.95);
+  border-radius: 10px;
+}
+
+.blackcolor{
+  color: black;
+}
+.resultCard{
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255,0.95);
+}
+
+.resultData,.practice{
+  color: black;
+}
+
+
+
